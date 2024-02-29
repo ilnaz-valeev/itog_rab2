@@ -51,3 +51,9 @@ void Commands()
     Console.WriteLine();
 }
 
+string ReadInput(string msg)
+{
+    Console.Write(msg);
+    return Console.ReadLine();
+}
+
